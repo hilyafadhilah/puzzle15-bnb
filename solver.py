@@ -80,7 +80,7 @@ mx = len(str(els[max(root.elements, key=lambda e: len(str(e)))]))
 for e in els:
     print(f"Tile {e:{mx}} = {root.offset(e)}")
 
-print(f'\nΣ + X = {root.totalOffset()}')
+print(f'\nTotal + X = {root.totalOffset()}')
 
 # main algorithm
 
