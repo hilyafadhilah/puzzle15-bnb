@@ -361,7 +361,7 @@ class Puzzle:
             if null is None:
                 null = Puzzle._null
 
-            grid: list[list[int]] = []
+            grid: list[list[T]] = []
             size = -1
             for line in f:
                 line = line.strip()
